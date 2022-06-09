@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns="http://w3.org/1999/xhtml" lang="en-us">  
+    <head>
+        <title> Hello HTML</title>
+        <meta name="Author" content="Matt Milner" />
+        <meta name="Description" content="Sample for HTML course" />
+        <meta name="keywords" content="Pluralshight, Sample, HTML"/>   
+        <meta http-equiv="Content-type" content="text/html;charset=utf-8"/>
+
+        <script type="text/javascript">
+            window.onload = function() {
+                //alert("window loaded");
+                document.getElementById("myMessage").innerHTML = "hello javascript";
+            };
+        </script>
+        <style type="text/css">
+            body {color:red}
+            .message {color:green}
+        </style>
+        <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+        <body>
+            <p id="myMessage" class="message">Hello World</p>
+        </body>
+</html>
